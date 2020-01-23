@@ -7,6 +7,16 @@ body *{
     padding: 0;
     border: 0;
 }
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem; 
+}
 /*body*/
 
 /*NavBar*/
@@ -21,6 +31,7 @@ svg{
 }
 nav h2{
     color: #343a40;
+    font-size: 3rem;
 }
 .nav-item{
     font-family: 'Bebas Neue', cursive;
@@ -44,26 +55,39 @@ nav h2{
     text-align: right;
     color: #ffffff;
 }
-
-.texto__header{
+.hero__contenido{
+    margin-top: 13rem;
+}
+.header__fondo__texto{
     background-color: #000000;
     display: inline-block;
     padding: 8px;
     margin-right: 1rem;
     font-family: 'Bebas Neue', cursive;
-    margin-top: 0.5rem;
+}
+.header__texto__titulo{
+    font-size: 4rem;
 }
 
-.hero h1{
-    font-size: 5rem;
+.header__texto__subtitulo{
+    font-size: 2rem;
 }
-
 /*Hero section*/
 
 /*sobre mi*/
+.sobre__mi{
+    background-color: #000000;
+    color: #ffffff;
+}
+.sobre__mi__titulo{
+    background-color: #000000; 
+}
+
+
 /*sobre mi*/
 
 /*experiencia*/
+
 /*experiencia*/
 
 /*ultimos trabajos*/
@@ -77,6 +101,10 @@ footer{
     background-color: #000000;
     text-align: center;
 }
+
+.texto__footer{
+    color: #ffffff;
+}
 /*footer*/
 
 
@@ -87,7 +115,24 @@ footer{
 @media (min-width: 768px) {}
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+/*Hero section*/
+    .hero{
+        height: 497px;
+        margin-top: 0px;
+        padding-top: 2px;
+    }
+    .hero__contenido{
+        margin-top: 9rem;
+    }
+    .header__texto__titulo{
+        font-size: 8rem;
+    }
+    .header__texto__subtitulo{
+        font-size: 4rem;
+    }
+/*Hero section*/
+}
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {}
