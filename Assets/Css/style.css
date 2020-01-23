@@ -88,9 +88,20 @@ nav h2{
 .sobre__mi__titulo{
     background-color: #000000; 
 }
+
+
 /*sobre mi*/
 
 /*experiencia*/
+.logo__experiencia{
+    margin: 0 auto;
+}
+.subtitulo__experiencia{
+    color: #000000;
+}
+.logo__idk{
+    width: 200px;
+}
 
 /*experiencia*/
 
@@ -123,7 +134,7 @@ nav h2{
     margin: 5px 10px !important     ;
 }
 /*ultimos trabajos*/
-
+/*Ilustarcion*/
 /*typeform*/
 .newsletter{
     color: #000000;
@@ -149,6 +160,8 @@ nav h2{
     font-size: 1.2rem;
 }
 .boton__newsletter{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
     width: 14rem;
     margin: 0 auto;
 }
@@ -158,10 +171,16 @@ nav h2{
 footer{
     background-color: #000000;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 .texto__footer{
     color: #ffffff;
+}
+
+footer i{
+    color: #ffffff;
+    margin: auto 1rem;
 }
 /*footer*/
 
@@ -174,6 +193,7 @@ footer{
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+    }
 /*ultimos-trabajos*/
 .ultimos__trabajos__carrusel{
     padding-bottom: 5rem;
