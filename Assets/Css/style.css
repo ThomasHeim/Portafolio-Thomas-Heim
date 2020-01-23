@@ -88,8 +88,6 @@ nav h2{
 .sobre__mi__titulo{
     background-color: #000000; 
 }
-
-
 /*sobre mi*/
 
 /*experiencia*/
@@ -109,6 +107,11 @@ nav h2{
     width: 200px;
 }
 
+.experiencia__contenido{
+    border-bottom: solid #000000 3px;
+    padding-bottom: 2rem;
+}
+
 /*experiencia*/
 
 /*ultimos trabajos*/
@@ -122,14 +125,25 @@ nav h2{
     background-color: #000000;
 }
 
+.ultimos__trabajos__imagen__lista{
+    object-fit: cover;
+}
+
 .ultimos__trabajos__titulo{
     color: #ffffff;
 }
 .card{
     border-radius: 0 !important;
 }
-.card__text__content{
-    margin-top: 5rem;
+.card__text__content__alvea{
+    margin-top: 4rem;
+}
+.card__text__content__careta{
+    margin-top: 6rem;
+}
+
+.card__text__content__cronicas{
+    margin-top: 14rem;
 }
 
 .card__text__background{
@@ -205,7 +219,13 @@ footer i{
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-    /*ultimos-trabajos*/
+/*Experiencia*/
+.experiencia__contenido{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+/*Experiencia*/
+/*ultimos-trabajos*/
 .ultimos__trabajos__carrusel{
     padding-bottom: 5rem;
 }
@@ -219,14 +239,18 @@ footer i{
     height: 13pt;
     width: 13pt;
 }
+
+.carrusel__imagen{
+    object-fit: cover;
+}
 .carrusel__titulo{
     color: #ffffff;
 }
 .carrusel__subtitulo{
     color: #ffffff;
 }
-
 /*ultimos-trabajos*/
+
 /*Hero section*/
     .hero{
         height: 497px;
