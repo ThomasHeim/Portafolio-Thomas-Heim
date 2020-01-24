@@ -1,7 +1,11 @@
+html{
+    scroll-behavior: smooth;
+}
 /*body*/
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
 body *{
     margin: 0;
     border: 0;
@@ -15,13 +19,18 @@ h2{
 
 h3{
     font-family: 'Bebas Neue', cursive;
-    font-size: 3rem; 
+    font-size: 2.5rem; 
+    color: #ffffff;
 }
 
 h4{
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     color: #ffffff;
+}
+
+.texto__fondo__blanco{
+    color: #000000;
 }
 /*body*/
 
@@ -159,8 +168,64 @@ nav h2{
     color: #ffffff;
     margin: 5px 10px !important     ;
 }
+.modal-body img{
+    width: 100%;
+    height: auto;
+}
+
+.boton__movil{
+    background-color: #000000 !important;
+}
 /*ultimos trabajos*/
 /*Ilustarcion*/
+.ilustracion{
+    background-color: #000000;
+    color: #ffffff;
+}
+.container__ilustracion{
+    line-height:0;
+    -webkit-column-count:5;
+    -webkit-column-gap:0;
+    -moz-column-count:5;
+    -moz-column-gap:0;
+    column-count:5;
+    column-gap:0}
+.img__btn{
+    width:100%;
+    height:auto;
+    transition:filter .2s
+}
+.btn__invisible {
+    border: none;
+    background-color: none;
+    cursor: pointer;
+}
+
+.btn__invisible__mobile {
+    border: none;
+    background-color: none;
+    cursor: pointer;
+    visibility: hidden;
+}
+.modal-content{
+    border: none;
+}
+.modal-body{
+    box-sizing: content-box;
+}
+
+.img__btn {
+    width: 100%;
+}
+
+.img__btn:hover {
+    filter: brightness(1.5);
+}
+
+#ilustracion2{
+
+}
+
 /*typeform*/
 .newsletter{
     color: #000000;
@@ -229,6 +294,13 @@ footer i{
 .ultimos__trabajos__carrusel{
     padding-bottom: 5rem;
 }
+.carrusel__titulo{
+    color: #ffffff;
+}
+
+.carrusel__subtitulo{
+    color: #ffffff;
+}
 .carousel-indicators{
     bottom: -70px;
     margin-bottom: 1rem;
@@ -239,8 +311,65 @@ footer i{
     height: 13pt;
     width: 13pt;
 }
+/*Diseño UX*/
+.carrusel__card__alvea{
+    background-image: url(../Img/UI_NuevoPersonaje.png);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 230px;
+}
+.carrusel__card__barbacteria{
+    background-image: url(../Img/card_barbacteria.png);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
-.carrusel__imagen{
+.carrusel__card__ricomida{
+    background-image: url(../Img/card_ricomida.png);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carrusel__card__careta{
+    background-image: url(../Img/card_careta.png);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 230px;
+}
+.carrusel__card__otori{
+    background-image: url(../Img/card_otori.png);
+    position: relative;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.carrusel__card__texto{
+    position: absolute;
+    font-size: 3rem;
+    top: 160px;
+    left: 20px;
+}
+
+.carrusel__card__texto__izq{
+    position: absolute;
+    font-size: 3rem;
+    top: 160px;
+    left: 30px;
+}
+.carrusel__card__fondo{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/*Diseño UX*/
+/*.carrusel__imagen{
     object-fit: cover;
 }
 .carrusel__titulo{
@@ -248,7 +377,7 @@ footer i{
 }
 .carrusel__subtitulo{
     color: #ffffff;
-}
+}*/
 /*ultimos-trabajos*/
 
 /*Hero section*/

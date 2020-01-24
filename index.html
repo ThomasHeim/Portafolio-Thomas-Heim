@@ -10,6 +10,8 @@
     <script src="https://kit.fontawesome.com/41b8753ddc.js" crossorigin="anonymous"></script>  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--bootstrap-->
+    <!--masonry galery-->
+    <link href="Assets/Css/imgal.min.css" rel="stylesheet">
     <!--mi estilo-->
     <link rel="stylesheet" href="Assets/Css/style.css">
     <!--mi estilo-->
@@ -17,7 +19,7 @@
 </head>
 <body>
  <!--Barra Navegacion-->
- <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+ <nav class="navbar navbar-expand-lg fixed-top navbar-dark  bg-dark">
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -60,7 +62,7 @@
     <div class="hero__contenido">
         <div class="hero__titulo">
             <div class="header__fondo__texto">
-                <h1 class="header__texto__titulo">Asi que...</h1>
+                <h1 class="header__texto__titulo">Así que...</h1>
             </div>
         </div>
         <div class="hero__subtitulo">
@@ -77,15 +79,16 @@
     <div class="container d-none d-lg-block">
         <div class="row justify-content-md-center mx-4">
             <div class="col-12 text-left mx-auto sobre__mi__titulo">
-                <h2>¿Y este quien es?</h2>
+                <h2>¿Y este quién es?</h2>
+                <h3 >//Sobre mí</h3>
             </div>
         </div>
         <div class="row justify-content-md-center mx-4">
             <div class="col-12 col-lg-6 text-sm-justify mx-auto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officiis porro sint numquam aliquid, natus nobis quas accusamus sequi. Quibusdam accusantium ratione in sapiente modi, a debitis assumenda esse aspernatur.</p>
+                <p>Thomas Heim es un diseñador de Viña del Mar salido de la Universidad de Valparaíso, al cual toda su carrera la ha guiado la pasión por hacer jueguitos, digo, juegos de video. La maña bien encaminada lleva lejos, dicen por ahí.</p>
             </div>
             <div class="col-12 col-lg-6 text-sm-justify mx-auto">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga porro quos error, beatae nesciunt in voluptatum eligendi, aperiam rem odio fugiat ad ut molestias, praesentium facilis. Vel deserunt ipsa esse.</p>       
+                <p>Esto lo llevó a aprender distintas áreas del diseño como lo es la ilustración, el diseño UX/UI, el diseño de preprensa digital (por que un tiempo le dio por hacer juegos de mesa) y, por supuesto, diseño de juegos. </p>       
             </div>
         </div>
     </div>
@@ -98,18 +101,20 @@
     <div class="row justify-content-md-center mx-4 d-none d-lg-block">
         <div class="col-12 text-right mx-auto">
             <h2>¿Y quién lo conoce?</h2>
+            <h3 class="texto__fondo__blanco">//Experiencia</h3>
         </div>
     </div>
     <div class="row justify-content-md-center d-block d-lg-none">
         <div class="col-12 text-center mx-auto">
             <h2>¿Y quién lo conoce?</h2>
+            <h3 class="texto__fondo__blanco">//Experiencia</h3>
         </div>
     </div>
     <div class="row justify-content-md-center mx-4 mt-2">
         <div class="col-12 col-lg-6 text-sm-justify">
             <div class="d-flex flex-column aline-items-center experiencia__contenido">
                 <img src="Assets/Img/niebla-300.png" alt="logo niebla games" class="logo__experiencia logo__niebla">
-                <h3 class="titulo__niebla text-center mt-1">Niebla Games</h3>
+                <h3 class="titulo__niebla text-center texto__fondo__blanco mt-1">Niebla Games</h3>
                 <h4 class="subtitulo__experiencia text-center">2015</h4>
             </div>
         </div>
@@ -117,12 +122,14 @@
         <div class="col-12 col-lg-6 text-sm-justify">
             <div class="d-flex flex-column aline-items-center mt-5">
                 <img src="Assets/Img/idk-logo.png" alt="logo idk games" class="logo__experiencia logo__idk">
-                <h3 class="titulo__idk text-center mt-2">IDK Games</h3>
+                <h3 class="titulo__idk text-center texto__fondo__blanco mt-2">IDK Games</h3>
                 <h4 class="subtitulo__experiencia text-center">2016-2017</h4>
             </div>
         </div>
     </div>
 </section>
+
+<!--Large Devices-->
 <!--experiencia-->
 
 <!--ultimos trabajos-->
@@ -132,7 +139,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center mt-3 mx-auto ultimos__trabajos__titulo">
-                    <h2>¿Y que ha hecho?</h2>
+                    <h2>¿Y qué ha hecho?</h2>
+                    <h3>//Últimos trabajos</h3>
                 </div>
             </div>
         </div>
@@ -145,12 +153,12 @@
                             <div class="card__text__content__alvea">
                                 <div class="card__text__titulo">
                                     <div class="card__text__background">
-                                        <h4 class="card-title">Diseño UX/UI</h4>
+                                        <button class="boton__movil"data-toggle="modal" data-target="#alvea_modal"><h4 class="card-title" >Diseño UX/UI</h4></buttondata-toggle="modal" data-target="#alvea_modal">
                                     </div>
                                 </div>
                                 <div class="card__text__subtitulo">
                                     <div class="card__text__background">
-                                        <p class="card-text card__subtitulo">Alvea: La leyenda de los vientos</p>
+                                        <button class="boton__movil"data-toggle="modal" data-target="#alvea_modal"><p class="card-text card__subtitulo">Alvea: La leyenda de los vientos</p></button>
                                     </div>
                                 </div>
                             </div>
@@ -165,12 +173,12 @@
                             <div class="card__text__content__careta">
                                 <div class="card__text__titulo">
                                     <div class="card__text__background">
-                                        <h4 class="card-title">Preprensa digital</h4>
+                                        <button class="boton__movil"data-toggle="modal" data-target="#careta_modal"><h4 class="card-title">Preprensa digital</h4></button>
                                     </div>
                                 </div>
                                 <div class="card__text__subtitulo">
                                     <div class="card__text__background">
-                                        <p class="card-text card__subtitulo">Careta</p>
+                                        <button class="boton__movil"data-toggle="modal" data-target="#careta_modal"><p class="card-text card__subtitulo">Careta</p></button>
                                     </div>
                                 </div>
                             </div>
@@ -184,12 +192,12 @@
                             <div class="card__text__content__cronicas">
                                 <div class="card__text__titulo">
                                     <div class="card__text__background">
-                                        <h4 class="card-title">Ilustración</h4>
+                                        <button class="boton__movil"data-toggle="modal" data-target="#ilustracion1"><h4 class="card-title">Ilustración</h4></button>
                                     </div>
                                 </div>
                                 <div class="card__text__subtitulo">
                                     <div class="card__text__background">
-                                        <p class="card-text card__subtitulo">Crónicas del estallido</p>
+                                        <button class="boton__movil"data-toggle="modal" data-target="#ilustracion1"><p class="card-text card__subtitulo">Crónicas del estallido</p></button>
                                     </div>
                                 </div>
                             </div>
@@ -199,13 +207,13 @@
             </div>       
         </div>
     </div>
-
-    <!--large devices-->
+<!--large devices-->
     <div class="carrusel ultimos__trabajos__carrusel pt-3">
         <div class="container d-none d-lg-block">
             <div class="row">
                 <div class="col-12 text-left mx-auto">
-                    <h2 class="carrusel__titulo">¿Y que ha hecho?</h2>
+                    <h2 class="carrusel__titulo">¿Y qué ha hecho?</h2>
+                    <h3 class="mb-3">//Últimos trabajos</h3>
                 </div>
             </div>
         </div>
@@ -221,9 +229,15 @@
                             <h3 class="col-12 carrusel__subtitulo">Diseño UX</h3>
                         </div>
                         <div class="row">
-                            <img class="col-4 carrusel__imagen" src="Assets/Img/we-work.jpg" alt="we-work">
-                            <img class="col-4 carrusel__imagen" src="Assets/Img/ricomida.png" alt="ricomida">
-                            <img class="col-4 carrusel__imagen" src="Assets/Img/UI_NuevoPersonaje.png" alt="alvea-la leyenda de los vientos">
+                            <div class="col-4 carrusel__card__alvea">
+                                <button class="btn__invisible"><h4 class="carrusel__card__texto__izq" data-toggle="modal" data-target="#alvea_modal"><mark class="carrusel__card__fondo px-2">Alvea</mark></h4></button>
+                            </div>
+                            <div class="col-4 carrusel__card__barbacteria">
+                                <a href="https://gamejolt.com/games/barbacterias-odyssey/120306" target="_blank"><h4 class="carrusel__card__texto"><mark class="carrusel__card__fondo px-2">Barbacteria</mark></h4></a>
+                            </div>
+                            <div class="col-4 carrusel__card__ricomida">
+                                <a href="Trabajos/Ricomida/index.html" target="_blank"><h4 class="carrusel__card__texto"><mark class="carrusel__card__fondo px-2">Ricomida</mark></h4></a>
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -231,9 +245,12 @@
                             <h3 class="col-12 carrusel__subtitulo">Diseño preprensa digital</h3>
                         </div>
                         <div class="row">
-                            <img class="col-4" src="Assets/Img/careta.jpg" alt="Careta">
-                            <img class="col-4" src="Assets/Img/Leyendas de los otori.jpg" alt="slider1">
-                            <img class="col-4" src="Assets/Img/test.jpg" alt="slider1">
+                            <div class="col-6 carrusel__card__careta">
+                                <button class="btn__invisible"><h4 class="carrusel__card__texto__izq" data-toggle="modal" data-target="#careta_modal"><mark class="carrusel__card__fondo px-2">Careta</mark></h4></button>
+                            </div>
+                            <div class="col-6 carrusel__card__otori">
+                                <button class="btn__invisible"><h4 class="carrusel__card__texto" data-toggle="modal" data-target="#otori_modal"><mark class="carrusel__card__fondo px-2">Leyendas de los Otori</mark></h4></button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -241,15 +258,145 @@
             </div>
         </div>
     </div>
+<!--Modales Ultimos Trabajos-->
+<!--Alvea-->
+<div class="modal fade" id="alvea_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-body">
+          <img src="Assets/Img/alvea_modal.png" alt="alvea">
+        </div>
+    </div>
+</div>
+
+<!--Careta-->
+<div class="modal fade" id="careta_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-body">
+          <img src="Assets/Img/careta_modal.jpg" alt="alvea">
+        </div>
+    </div>
+</div>
 </section>
-    <!--large devices-->
+
+<!--Otori-->
+<div class="modal fade" id="otori_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-body">
+          <img src="Assets/Img/otori_modal.jpg" alt="alvea">
+        </div>
+    </div>
+</div>
+</section>
+<!--ilustracion-->
+<section class="ilustracion d-none d-lg-block pt-4 pb-5">
+    <div class="container">
+        <div class="row text-left mt-4">
+            <h3>Ilustración</h3>
+        </div>
+        <div class="row justify-content-md-center mt-4">
+        <div class="container__ilustracion">
+            <button class="btn__invisible"><img src="Assets/Img/ilustracion1.png" alt="" class="img__btn" data-toggle="modal" data-target="#ilustracion1"></button>
+            <button class="btn__invisible"><img src="Assets/Img/ilustracion2.png" alt="" class="img__btn" data-toggle="modal" data-target="#ilustracion2"></button>
+            <button class="btn__invisible"><img src="Assets/Img/ilustracion9.png" alt="" class="img__btn" data-toggle="modal" data-target="#ilustracion9"></button>
+            <button class="btn__invisible"><img src="Assets/Img/ilustracion3.png" alt="" class="img__btn" data-toggle="modal" data-target="#ilustracion3"></button>
+            <button class="btn__invisible"><img src="Assets/Img/ilustracion4.png" alt="" class="img__btn" data-toggle="modal" data-target="#ilustracion4"></button>
+            <button class="btn__invisible"><img src="Assets/Img/ilustracion5.png" alt="" class="img__btn" data-toggle="modal" data-target="#ilustracion5"></button>
+            <button class="btn__invisible"><img src="Assets/Img/ilustracion6.png" alt="" class="img__btn" data-toggle="modal" data-target="#ilustracion6"></button>
+            <button class="btn__invisible"><img src="Assets/Img/ilustracion7.png" alt="" class="img__btn" data-toggle="modal" data-target="#ilustracion7"></button>
+            <button class="btn__invisible"><img src="Assets/Img/ilustracion8.png" alt="" class="img__btn" data-toggle="modal" data-target="#ilustracion8"></button>
+            <button class="btn__invisible"><img src="Assets/Img/ilustracion10.png" alt="" class="img__btn" data-toggle="modal" data-target="#ilustracion10"></button>
+        </div>
+    </div>
+    
+</section>
+<!--modales ilustracion-->
+<!--illustracion1-->
+<div class="modal fade" id="ilustracion1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-body">
+          <img src="Assets/Img/ilustracion1.png" width="auto" height="644" alt="Cronicas-del-estallido-1">
+        </div>
+    </div>
+</div>
+<!--illustracion2-->
+<div class="modal fade" id="ilustracion2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-body">
+            <img src="Assets/Img/ilustracion2.png" width="auto" height="644" alt="Luciana-estevez">
+        </div>
+    </div>
+</div>
+<!--illustracion3-->
+<div class="modal fade" id="ilustracion3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-body">
+            <img src="Assets/Img/ilustracion3.png" width="auto" height="644" alt="ilustracion3">
+        </div>
+    </div>
+</div>
+<!--illustracion4-->
+<div class="modal fade" id="ilustracion4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-body">
+            <img src="Assets/Img/ilustracion4.png" width="auto" height="644" alt="ilustracion4">
+        </div>
+    </div>
+</div>
+<!--illustracion5-->
+<div class="modal fade" id="ilustracion5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-body">
+            <img src="Assets/Img/ilustracion5.png" width="auto" height="644" alt="ilustracion5">
+        </div>
+    </div>
+</div>
+<!--illustracion6-->
+<div class="modal fade" id="ilustracion6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-body">
+            <img src="Assets/Img/ilustracion6.png" width="auto" height="644" alt="ilustracion6">
+        </div>
+    </div>
+</div>
+<!--illustracion7-->
+<div class="modal fade" id="ilustracion7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-body">
+            <img src="Assets/Img/ilustracion7.png" width="auto" height="644" alt="ilustracion7">
+        </div>
+    </div>
+</div>
+<!--illustracion8-->
+<div class="modal fade" id="ilustracion8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-body">
+            <img src="Assets/Img/ilustracion8.png" width="auto" height="644" alt="ilustracion8">
+        </div>
+    </div>
+</div>
+<!--illustracion9-->
+<div class="modal fade" id="ilustracion9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-body">
+            <img src="Assets/Img/ilustracion9.png" width="auto" height="644" alt="ilustracion9">
+        </div>
+    </div>
+</div>
+<!--illustracion6-->
+<div class="modal fade" id="ilustracion10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-body">
+            <img src="Assets/Img/ilustracion10.png" width="auto" height="644" alt="ilustracion10">
+        </div>
+    </div>
+</div>
 <!--ultimos trabajos-->
 
 <!--typeform-->
 <aside id="contacto">
     <div class="jumbotron newsletter mb-0 px-5">
         <div class="newsletter__contenido">
-            <h1 class="display-4">Me caíste bien, como hablamos?</h1>
+            <h1 class="display-4">Me caíste bien, cómo hablamos?</h1>
             <p class="lead">Clickea en el boton para que coordinemos algo.</span></p>
             <div class="boton__newsletter">
                 <a class="typeform-share button btn btn-dark btn-block mt-4" href="https://thomasheim.typeform.com/to/Zi8YWC" data-mode="popup" style="display:inline-block;text-decoration:none;cursor:pointer;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" target="_blank">Hablemos</a> 
