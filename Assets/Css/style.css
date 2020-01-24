@@ -10,7 +10,7 @@ body *{
 
 h2{
     font-family: 'Bebas Neue', cursive;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 h3{
@@ -55,14 +55,14 @@ nav h2{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    height:600px;
+    height:650px;
     margin-top: 50px;
     padding-top: 80px;
     text-align: right;
     color: #ffffff;
 }
 .hero__contenido{
-    margin-top: 20rem;
+    margin-top: 25rem;
 }
 .header__fondo__texto{
     background-color: #000000;
