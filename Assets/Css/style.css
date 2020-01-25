@@ -228,13 +228,12 @@ nav h2{
     color: #000000;
     text-align: center;
     border-radius: 0;
+    margin-bottom: 0 !important;
+    height: 400px;
 }
 
 .newsletter__contenido{
     vertical-align: middle;
-}
-.newsletter{
-    height: 300px;
 }
 
 .display-4{
@@ -365,16 +364,6 @@ footer i{
     color: #ffffff;
 }
 
-/*Diseño UX*/
-/*.carrusel__imagen{
-    object-fit: cover;
-}
-.carrusel__titulo{
-    color: #ffffff;
-}
-.carrusel__subtitulo{
-    color: #ffffff;
-}*/
 /*ultimos-trabajos*/
 
 /*Hero section*/
@@ -392,8 +381,11 @@ footer i{
     .header__texto__subtitulo{
         font-size: 4rem;
     }
+/*typeform*/
+.newsletter{
+    height: 300px;
 }
-/*Hero section*/
+}
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {}
